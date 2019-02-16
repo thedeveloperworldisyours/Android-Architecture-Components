@@ -45,7 +45,7 @@ class MainViewModel(private val reposRepository: ReposRepository) : ViewModel() 
      */
     val title = reposRepository.title
 
-    private val _spinner = MutableLiveData<Boolean>()
+    private val _spinner = MutableLiveData<Boolean  >()
     /**
      * Show a loading spinner if true
      */
